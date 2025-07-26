@@ -60,10 +60,10 @@ export const PWAInstallButton: React.FC = () => {
       onClick={handleInstallClick}
       variant="romantic"
       size="sm"
-      className="flex items-center gap-2"
+      className="flex items-center gap-2 text-xs px-3 py-2"
     >
-      {isInstallable ? <Download className="h-4 w-4" /> : <Smartphone className="h-4 w-4" />}
-      Install App
+      {isInstallable ? <Download className="h-3 w-3" /> : <Smartphone className="h-3 w-3" />}
+      Download App
     </Button>
   );
 };
