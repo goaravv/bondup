@@ -1,0 +1,27 @@
+{
+  "name": "BondUP - Couple Task App",
+  "short_name": "BondUP",
+  "description": "Privacy-first gamified couple task app for daily bonding challenges",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf2f8",
+  "theme_color": "#ec4899",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/lovable-uploads/6f8a6597-9b93-425e-a902-d037e3a9fe7c.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lovable-uploads/6f8a6597-9b93-425e-a902-d037e3a9fe7c.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "entertainment"],
+  "lang": "en"
+}
